@@ -1,0 +1,55 @@
+.background
+  background: url(../img/header-main-bg.png) no-repeat
+  background-size: cover
+  min-height: 950px
+
+.header
+  padding: 35px
+
+.container
+  +container(1170px)
+  margin: 0 auto
+
+.header__container
+  display: flex
+  align-items: center
+  justify-content: space-between
+  color: $white
+
+.header-logo__nav
+  display: flex
+  align-items: center
+  gap: 25px
+
+.nav__Link
+  font-size: 16px
+  font-weight: 400
+
+.button
+  padding: 15px 25px
+  border: solid 1px $white
+
+
+.section
+  padding-top: 370px
+
+.section__description
+  display: flex
+  flex-direction: column
+  text-align: center
+  color: $white
+  .section__title
+    font-size: 48px
+    font-weight: 700
+    letter-spacing: 85px
+    text-transform: uppercase
+    position: relative
+    &::after
+      content: ""
+      position: absolute
+      right: 0
+      left: 0
+      bottom: 0
+      width: 665px
+      height: 2px
+      background: #fff
