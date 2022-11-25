@@ -2,7 +2,7 @@
   header.header 
   .header__container.container 
     .header-logo__nav 
-      img(src="/assets/img/main-img.png", alt="")
+      img.logo(src="assets/img/main-img.png", alt="")
       a.nav__Link(href="#") Главная
       a.nav__Link(href="#") Обо мне
     .nav-btn 
@@ -11,7 +11,9 @@
     span.hamburger-box
       span.hamburger-inner
 
-  //- section.section.container
-  //-   .section__description 
-  //-     h1.section__title Резюме
-  //-     h4.section__text Коротко о главном 
+  section.section.container
+    .section__description 
+      h1.section__title Резюме
+      h4.section__text Коротко о главном 
+      a.icon__link(href="#bottom" id="top") 
+        img(src="assets/img/icon-arrow.png", alt="")

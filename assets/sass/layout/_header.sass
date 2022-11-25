@@ -2,9 +2,10 @@
   background: url(../img/header-main-bg.png) no-repeat
   background-size: cover
   min-height: 950px
+  // max-width: 100%
 
 .header
-  padding: 35px
+  padding: 15px
 
 .container
   +container(1170px)
@@ -21,16 +22,65 @@
   align-items: center
   gap: 25px
 
+
+
 .nav__Link
   font-size: 16px
   font-weight: 400
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 0
+    height: 0
+    transition: .6s all
+  &:hover::before
+    width: 100%
+    height: 2px
+    background: $white
 
 .button
   padding: 15px 25px
   border: solid 1px $white
+  font-weight: 500
+  transition: .8s ease all
+  &:hover
+    background: $yellow
+    color: $dark
 
 .hamburger
   display: none
+
+.section
+  padding-top: 370px
+
+.section__description
+  display: flex
+  flex-direction: column
+  text-align: center
+  color: $white
+  max-width: 100%
+  margin: 0 auto
+  .section__title
+    font-size: 48px
+    font-weight: 700
+    letter-spacing: 85px
+    text-transform: uppercase
+    margin-bottom: 120px
+  .section__text
+    font-size: 24px
+    font-weight: 500
+    letter-spacing: 15px
+  .icon__link
+    padding-top: 105px
+
+@include media(740px)
+  .section__title
+    font-size: 30px !important 
+    letter-spacing: 50px !important
+    margin-left: 20px !important
 
 
 @include media(470px)
@@ -66,17 +116,10 @@
   .nav__Link
     font-weight: 500
 
-
-// .section
-//   padding-top: 370px
-
-// .section__description
-//   display: flex
-//   flex-direction: column
-//   text-align: center
-//   color: $white
-//   .section__title
-//     font-size: 48px
-//     font-weight: 700
-//     letter-spacing: 85px
-//     text-transform: uppercase
+  .section__title
+    font-size: 30px !important
+    letter-spacing: 25px !important
+  .section__text
+    line-height: 30px !important
+    letter-spacing: 10px !important
+    margin-bottom: 100px
