@@ -29,17 +29,54 @@
   padding: 15px 25px
   border: solid 1px $white
 
+.hamburger
+  display: none
 
-.section
-  padding-top: 370px
 
-.section__description
-  display: flex
-  flex-direction: column
-  text-align: center
-  color: $white
-  .section__title
-    font-size: 48px
-    font-weight: 700
-    letter-spacing: 85px
-    text-transform: uppercase
+@include media(470px)
+  .hamburger
+    display: block
+    position: fixed
+    top: 0
+    right: 0
+  .header__container
+    position: fixed
+    top: 0
+    right: 0
+    width: 220px
+    height: 100vh
+    background: $dark
+    color: $yellow
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: center
+    transform: translateX(100%)
+    transition: .8s all
+  .header-logo__nav
+    display: flex
+    flex-direction: column
+    gap: 40px
+  .nav-btn
+    padding-top: 40px
+    .button
+      padding: 10px 20px
+  .header__container.is-active
+    transform: translateX(0)
+  .nav__Link
+    font-weight: 500
+
+
+// .section
+//   padding-top: 370px
+
+// .section__description
+//   display: flex
+//   flex-direction: column
+//   text-align: center
+//   color: $white
+//   .section__title
+//     font-size: 48px
+//     font-weight: 700
+//     letter-spacing: 85px
+//     text-transform: uppercase
