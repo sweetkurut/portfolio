@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-light bg-dark;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium transition-all duration-300 rounded-lg;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-light hover:bg-primary-hover;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-light;
+  }
+  
+  .section {
+    @apply py-16 md:py-24;
+  }
+  
+  .section-title {
+    @apply mb-12 text-3xl md:text-4xl lg:text-5xl font-bold text-center;
+  }
+  
+  .section-subtitle {
+    @apply text-xl text-muted text-center max-w-3xl mx-auto mb-16;
+  }
+  
+  .card {
+    @apply bg-darker p-6 md:p-8 rounded-xl border border-gray-800 transition-all duration-300;
+  }
+  
+  .card-hover {
+    @apply hover:border-primary hover:shadow-lg hover:shadow-primary/10;
+  }
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-secondary;
+}
+
+.tab-active {
+  @apply bg-darker border-primary text-primary;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-muted;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-primary;
+}

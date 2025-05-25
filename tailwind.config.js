@@ -1,0 +1,61 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        dark: '#121212',
+        darker: '#0a0a0a',
+        light: '#f5f5f5',
+        muted: '#a0a0a0',
+        primary: {
+          DEFAULT: '#00b2ff',
+          hover: '#0095d9',
+          50: '#e6f9ff',
+          100: '#ccf3ff',
+          200: '#99e7ff',
+          300: '#66dbff',
+          400: '#33cfff',
+          500: '#00b2ff',
+          600: '#008ecc',
+          700: '#006a99',
+          800: '#004766',
+          900: '#002333',
+        },
+        secondary: {
+          DEFAULT: '#8a2be2',
+          hover: '#7325bd',
+          50: '#f4e6fc',
+          100: '#e9ccf9',
+          200: '#d399f4',
+          300: '#bd66ef',
+          400: '#a733ea',
+          500: '#8a2be2',
+          600: '#7325bd',
+          700: '#571c8e',
+          800: '#3a135e',
+          900: '#1d092f',
+        },
+        accent: {
+          DEFAULT: '#00ffff',
+          hover: '#00d9d9',
+          50: '#e6ffff',
+          100: '#ccffff',
+          200: '#99ffff',
+          300: '#66ffff',
+          400: '#33ffff',
+          500: '#00ffff',
+          600: '#00cccc',
+          700: '#009999',
+          800: '#006666',
+          900: '#003333',
+        }
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        heading: ['Poppins', 'system-ui', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+};
