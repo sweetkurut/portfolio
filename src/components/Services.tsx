@@ -26,7 +26,7 @@ const Services: React.FC = () => {
         { id: "frontend", label: t("services.tabs.frontend"), icon: <Layout size={24} /> },
         { id: "backend", label: t("services.tabs.backend"), icon: <Database size={24} /> },
         { id: "design", label: t("services.tabs.design"), icon: <Palette size={24} /> },
-        { id: "devops", label: t("services.tabs.devops"), icon: <Server size={24} /> },
+        // { id: "devops", label: t("services.tabs.devops"), icon: <Server size={24} /> },
     ];
 
     const getTabContent = (tabId: string) => {
@@ -39,11 +39,11 @@ const Services: React.FC = () => {
                             title={t("services.fullCycle.title1")}
                             description={t("services.fullCycle.desc1")}
                         />
-                        <ServiceCard
+                        {/* <ServiceCard
                             icon={<Layout size={36} />}
                             title={t("services.fullCycle.title2")}
                             description={t("services.fullCycle.desc2")}
-                        />
+                        /> */}
                         <ServiceCard
                             icon={<Server size={36} />}
                             title={t("services.fullCycle.title3")}
@@ -108,26 +108,6 @@ const Services: React.FC = () => {
                             icon={<Palette size={36} />}
                             title={t("services.design.title3")}
                             description={t("services.design.desc3")}
-                        />
-                    </div>
-                );
-            case "devops":
-                return (
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        <ServiceCard
-                            icon={<Server size={36} />}
-                            title={t("services.devops.title1")}
-                            description={t("services.devops.desc1")}
-                        />
-                        <ServiceCard
-                            icon={<Server size={36} />}
-                            title={t("services.devops.title2")}
-                            description={t("services.devops.desc2")}
-                        />
-                        <ServiceCard
-                            icon={<Server size={36} />}
-                            title={t("services.devops.title3")}
-                            description={t("services.devops.desc3")}
                         />
                     </div>
                 );

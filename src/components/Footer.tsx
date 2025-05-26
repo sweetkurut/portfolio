@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="mb-6 md:mb-0">
                         <a href="#home" className="text-2xl font-bold font-heading">
-                            <span className="text-primary">Aidin</span>Dev
+                            <span className="text-primary">Aidin</span>Dew
                         </a>
                     </div>
 
