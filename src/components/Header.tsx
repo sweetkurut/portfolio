@@ -29,7 +29,6 @@ const Header: React.FC = () => {
     }, []);
 
     const navLinks = [
-        { name: t("nav.home"), href: "#home" },
         { name: t("nav.about"), href: "#about" },
         { name: t("nav.services"), href: "#services" },
         { name: t("nav.projects"), href: "#projects" },
@@ -40,7 +39,7 @@ const Header: React.FC = () => {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-                scrolled ? "bg-darker/90 backdrop-blur-md py-4 shadow-lg" : "bg-transparent py-6"
+                scrolled ? "bg-darker/90 backdrop-blur-md py-4 shadow-lg" : "bg-darker py-6"
             }`}
         >
             <div className="container flex items-center justify-between">
@@ -80,13 +79,56 @@ const Header: React.FC = () => {
                     </div>
                 </nav>
 
-                {/* Mobile Menu Button */}
+                {/* мобилка - мею */}
                 <button className="md:hidden text-light" onClick={toggleMenu} aria-label="Toggle menu">
                     {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
                 </button>
             </div>
 
-            {/* Mobile Navigation */}
+            {/* планшет */}
+            <div className="hidden md:flex lg:hidden fixed top-0 left-0 w-full z-40 bg-darker shadow-md">
+                <div className="container flex items-center justify-between py-4">
+                    <a href="#home" className="text-2xl font-bold" onClick={closeMenu}>
+                        <span className="text-primary">Aidin</span>Dew
+                    </a>
+
+                    <div className="flex items-center space-x-6">
+                        {navLinks.map((link) => (
+                            <a
+                                key={link.href}
+                                href={link.href}
+                                className="text-base text-light hover:text-primary transition-colors duration-300"
+                                onClick={closeMenu}
+                            >
+                                {link.name}
+                            </a>
+                        ))}
+
+                        {/* Language Switch */}
+                        <div className="flex items-center space-x-2 border-l border-gray-800 pl-4">
+                            <Globe size={20} className="text-primary" />
+                            <button
+                                onClick={() => changeLanguage("en")}
+                                className={`px-2 py-1 rounded text-sm ${
+                                    i18n.language === "en" ? "bg-primary text-light" : "text-light hover:text-primary"
+                                }`}
+                            >
+                                EN
+                            </button>
+                            <button
+                                onClick={() => changeLanguage("ru")}
+                                className={`px-2 py-1 rounded text-sm ${
+                                    i18n.language === "ru" ? "bg-primary text-light" : "text-light hover:text-primary"
+                                }`}
+                            >
+                                RU
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* мобильная навигация */}
             <div
                 className={`fixed inset-0 bg-darker z-40 transition-transform duration-300 md:hidden ${
                     isMenuOpen ? "translate-x-0" : "translate-x-full"
@@ -95,7 +137,7 @@ const Header: React.FC = () => {
                 <div className="container py-8">
                     <div className="flex items-center justify-between mb-8">
                         <a href="#home" className="text-2xl font-bold" onClick={closeMenu}>
-                            <span className="text-primary">Dev</span>Portfolio
+                            <span className="text-primary">Aidin</span>Dew
                         </a>
                         <button onClick={closeMenu} aria-label="Close menu">
                             <X size={24} className="text-light" />

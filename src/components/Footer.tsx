@@ -17,9 +17,6 @@ const Footer: React.FC = () => {
                     </div>
 
                     <nav className="flex flex-wrap justify-center mb-6 md:mb-0">
-                        <a href="#home" className="px-4 py-2 text-muted hover:text-light transition-colors">
-                            {t("nav.home")}
-                        </a>
                         <a href="#about" className="px-4 py-2 text-muted hover:text-light transition-colors">
                             {t("nav.about")}
                         </a>

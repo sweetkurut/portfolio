@@ -39,11 +39,11 @@ const Services: React.FC = () => {
                             title={t("services.fullCycle.title1")}
                             description={t("services.fullCycle.desc1")}
                         />
-                        {/* <ServiceCard
+                        <ServiceCard
                             icon={<Layout size={36} />}
                             title={t("services.fullCycle.title2")}
                             description={t("services.fullCycle.desc2")}
-                        /> */}
+                        />
                         <ServiceCard
                             icon={<Server size={36} />}
                             title={t("services.fullCycle.title3")}

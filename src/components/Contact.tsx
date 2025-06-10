@@ -151,10 +151,7 @@ const Contact: React.FC = () => {
                                     </div>
                                     <div>
                                         <p className="text-muted mb-1">{t("contact.email_label")}</p>
-                                        <a
-                                            href="mailto:contact@devportfolio.com"
-                                            className="text-light hover:text-primary transition-colors"
-                                        >
+                                        <a href="mailto:devxwc@gmail.com" className="text-light hover:text-primary transition-colors">
                                             devxwc@gmail.com
                                         </a>
                                     </div>
