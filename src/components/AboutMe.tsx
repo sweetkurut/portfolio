@@ -19,7 +19,7 @@ const AboutMe: React.FC = () => {
                     <h2 className="section-title gradient-text">{t("about.title")}</h2>
 
                     <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
-                        <div className="w-full md:w-1/3 flex flex-col gap-6">
+                        {/* <div className="w-full md:w-1/3 flex flex-col gap-6">
                             <div className="card card-hover p-6 flex flex-col items-center text-center">
                                 <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                                     <Code2 size={28} className="text-primary" />
@@ -45,9 +45,17 @@ const AboutMe: React.FC = () => {
                                 <h3 className="text-xl font-medium mb-2">Design</h3>
                                 <p className="text-muted">Figma</p>
                             </div>
+                        </div> */}
+
+                        <div>
+                            <img
+                                src="/src/assets/img/me.jpg"
+                                alt=""
+                                className="w-full h-auto filter grayscale hover:filter-none transition duration-300 ease-in-out"
+                            />
                         </div>
 
-                        <div className="w-full md:w-2/3">
+                        <div className="w-full md:w-2/2">
                             <p className="text-lg leading-relaxed mb-6">{t("about.description")}</p>
 
                             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">

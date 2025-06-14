@@ -16,7 +16,7 @@ export const en = {
     about: {
         title: "About Me",
         description:
-            "For over two years, I’ve been crafting more than just websites and apps — I build digital experiences that work, inspire, and deliver real results. Beauty lies in the details, and functionality is always at the core. I blend technical precision with creative thinking to make every line of code count. I’m all about clean code, intuitive interfaces, and tech that truly drives businesses forward. Staying ahead of web trends isn’t just a habit — it’s my way of working. Creating fast, modern, and user-friendly web products? That’s my passion.",
+            "For over three years, I’ve been crafting more than just websites and apps — I build digital experiences that work, inspire, and deliver real results. Beauty lies in the details, and functionality is always at the core. I blend technical precision with creative thinking to make every line of code count. I’m all about clean code, intuitive interfaces, and tech that truly drives businesses forward. Staying ahead of web trends isn’t just a habit — it’s my way of working. Creating fast, modern, and user-friendly web products? That’s my passion.",
         card: {
             year: "Years of Experience",
             project: "Successful Projects",
@@ -31,24 +31,30 @@ export const en = {
             frontend: "Frontend Development",
             backend: "Backend Development",
             design: "UI/UX Design",
-            devops: "DevOps",
+            mobile: "Mobile Development",
         },
         fullCycle: {
             title1: "End-to-End Development",
             desc1: "Complete website development from concept to deployment, including design, frontend, backend, and maintenance.",
-            title2: "Custom CMS Integration",
-            desc2: "Integration with popular content management systems or custom solutions tailored to your needs.",
+            // title2: "Custom CMS Integration",
+            // desc2: "Integration with popular content management systems or custom solutions tailored to your needs.",
             title3: "Performance Optimization",
             desc3: "Speed optimization, caching strategies, and best practices implementation for optimal performance.",
         },
         frontend: {
-            title1: "Responsive Websites",
-            desc1: "Mobile-first, responsive websites that look great on all devices and screen sizes.",
-            title2: "Single Page Applications",
-            desc2: "Fast, dynamic applications using modern frameworks like React, Vue, or Angular.",
-            title3: "Frontend Performance",
-            desc3: "Optimization techniques to ensure your website loads quickly and runs smoothly.",
+            title1: "Landing Page – from 15,000 KGS",
+            desc1: "A one-page website perfect for presenting a service, product, or collecting leads. Fast-loading, responsive, and modern design.",
+
+            title2: "Corporate Website – from 40,000 KGS",
+            desc2: "A multi-page company website with information about services, team, contacts, and feedback forms. Fully responsive and user-friendly.",
+
+            title3: "E-commerce Store – from 60,000 KGS",
+            desc3: "A complete online store: product catalog, cart, checkout, and integrations with messengers and online payments.",
+
+            title4: "Product Catalog Website – from 50,000 KGS",
+            desc4: "A catalog site without payment or registration. Easy navigation, filtering, and clear product presentation.",
         },
+
         backend: {
             title1: "API Development",
             desc1: "RESTful or GraphQL APIs that connect your frontend to your data and services.",
@@ -58,20 +64,20 @@ export const en = {
             desc3: "Secure user management systems with robust authentication and authorization flows.",
         },
         design: {
-            title1: "Web Design",
+            title1: "Web Design - from 10,000 KGS",
             desc1: "Modern, clean designs that engage users and reflect your brand identity.",
-            title2: "User Experience",
-            desc2: "Intuitive interfaces and smooth user journeys that convert visitors into customers.",
-            title3: "Design Systems",
-            desc3: "Consistent design languages and component libraries for your digital products.",
+            // title2: "User Experience",
+            // desc2: "Intuitive interfaces and smooth user journeys that convert visitors into customers.",
+            // title3: "Design Systems",
+            // desc3: "Consistent design languages and component libraries for your digital products.",
         },
-        devops: {
-            title1: "Deployment Automation",
-            desc1: "CI/CD pipelines for seamless testing and deployment of your applications.",
-            title2: "Server Configuration",
-            desc2: "Setup and optimization of web servers, databases, and cloud infrastructure.",
-            title3: "Monitoring & Maintenance",
-            desc3: "Ongoing monitoring, updates, and support to keep your website running smoothly.",
+        mobile: {
+            title1: "Cross-platform Development - from 100, 000 KGS",
+            desc1: "Building mobile apps for iOS and Android using modern technologies.",
+            // title2: "Backend Integration",
+            // desc2: "Setting up APIs and integrating with the backend for stable app performance.",
+            // title3: "Publishing & Support",
+            // desc3: "App Store and Google Play publishing, along with regular updates and maintenance.",
         },
     },
     projects: {
@@ -149,10 +155,10 @@ export const ru = {
     about: {
         title: "Обо мне",
         description:
-            "Уже более двух лет я создаю не просто сайты и приложения, а цифровые решения, которые работают, вдохновляют и приносят результат. Красота в деталях, функциональность — в основе. Я совмещаю техническую точность с креативным мышлением, чтобы каждая строчка кода делала продукт лучше. Я за чистый код, понятный интерфейс и технологии, которые действительно двигают бизнес вперёд. Следить за новыми трендами — мой стиль. Создавать удобные, быстрые и современные веб-продукты — моя страсть.",
+            "Уже более трёх лет я создаю не просто сайты и приложения, а цифровые решения, которые работают, вдохновляют и приносят результат. Красота в деталях, функциональность — в основе. Я совмещаю техническую точность с креативным мышлением, чтобы каждая строчка кода делала продукт лучше. Я за чистый код, понятный интерфейс и технологии, которые действительно двигают бизнес вперёд. Следить за новыми трендами — мой стиль. Создавать удобные, быстрые и современные веб-продукты — моя страсть.",
         card: {
             year: "Года опыта",
-            project: "Успешных проекктов",
+            project: "Успешных проектов",
             client: "Счастливых клиентов",
         },
     },
@@ -164,24 +170,30 @@ export const ru = {
             frontend: "Frontend разработка",
             backend: "Backend разработка",
             design: "UI/UX Дизайн",
-            devops: "DevOps",
+            mobile: "Мобильная разработка",
         },
         fullCycle: {
             title1: "Полный цикл разработки",
             desc1: "Комплексная разработка сайта от концепции до размещения, включая дизайн, фронтенд, бэкенд и обслуживание.",
-            title2: "Интеграция с CMS",
-            desc2: "Интеграция с популярными CMS или индивидуальные решения, адаптированные под ваши потребности.",
+            // title2: "Интеграция с CMS",
+            // desc2: "Интеграция с популярными CMS или индивидуальные решения, адаптированные под ваши потребности.",
             title3: "Оптимизация производительности",
             desc3: "Оптимизация скорости, стратегии кэширования и внедрение лучших практик для оптимальной производительности.",
         },
         frontend: {
-            title1: "Адаптивные сайты",
-            desc1: "Сайты, созданные по принципу Mobile First, которые отлично выглядят на всех устройствах и размерах экранов.",
-            title2: "Одностраничные приложения",
-            desc2: "Быстрые, динамичные приложения с использованием современных фреймворков, таких как React, Vue или Angular.",
-            title3: "Оптимизация фронтенда",
-            desc3: "Техники оптимизации для обеспечения быстрой загрузки и плавной работы вашего сайта.",
+            title1: "Landing Page – от 15 000 сом",
+            desc1: "Одностраничный сайт, идеально подходящий для презентации услуги, продукта или сбора заявок. Быстрая загрузка, адаптивность и современный дизайн.",
+
+            title2: "Корпоративный сайт – от 40 000 сом",
+            desc2: "Многостраничный сайт для компаний: информация об услугах, команде, контактные данные и формы обратной связи. Полностью адаптивный и удобный для пользователя.",
+
+            title3: "Интернет-магазин – от 60 000 сом",
+            desc3: "Полноценный e-commerce сайт: каталог товаров, корзина, оформление заказов, интеграция с мессенджерами и системами онлайн-оплаты.",
+
+            title4: "Сайт-каталог – от 50 000 сом",
+            desc4: "Каталог товаров без необходимости регистрации и онлайн-оплаты. Удобная фильтрация, поиск и презентация товаров.",
         },
+
         backend: {
             title1: "Разработка API",
             desc1: "RESTful или GraphQL API, соединяющие ваш фронтенд с данными и сервисами.",
@@ -191,20 +203,20 @@ export const ru = {
             desc3: "Безопасные системы управления пользователями с надежными процессами аутентификации и авторизации.",
         },
         design: {
-            title1: "Веб-дизайн",
+            title1: "Веб-дизайн от 10 000 сом",
             desc1: "Современный, чистый дизайн, который привлекает пользователей и отражает идентичность вашего бренда.",
-            title2: "Пользовательский опыт",
-            desc2: "Интуитивные интерфейсы и плавные пользовательские пути, которые превращают посетителей в клиентов.",
-            title3: "Дизайн-системы",
-            desc3: "Последовательные дизайн-языки и библиотеки компонентов для ваших цифровых продуктов.",
+            // title2: "Пользовательский опыт",
+            // desc2: "Интуитивные интерфейсы и плавные пользовательские пути, которые превращают посетителей в клиентов.",
+            // title3: "Дизайн-системы",
+            // desc3: "Последовательные дизайн-языки и библиотеки компонентов для ваших цифровых продуктов.",
         },
-        devops: {
-            title1: "Автоматизация развертывания",
-            desc1: "CI/CD пайплайны для безупречного тестирования и развертывания ваших приложений.",
-            title2: "Настройка серверов",
-            desc2: "Настройка и оптимизация веб-серверов, баз данных и облачной инфраструктуры.",
-            title3: "Мониторинг и обслуживание",
-            desc3: "Постоянный мониторинг, обновления и поддержка для бесперебойной работы вашего сайта.",
+        mobile: {
+            title1: "Кроссплатформенная разработка - от 100 000 сом",
+            desc1: "Создание мобильных приложений на iOS и Android с использованием современных технологий.",
+            // title2: "Интеграция с бэкендом",
+            // desc2: "Настройка API и интеграция с серверной частью для стабильной работы приложения.",
+            // title3: "Публикация и поддержка",
+            // desc3: "Размещение в App Store и Google Play, а также регулярные обновления и сопровождение.",
         },
     },
     projects: {

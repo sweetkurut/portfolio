@@ -1,21 +1,8 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { Globe, Layout, Database, Palette, Server } from "lucide-react";
-
-const ServiceCard: React.FC<{
-    icon: React.ReactNode;
-    title: string;
-    description: string;
-}> = ({ icon, title, description }) => {
-    return (
-        <div className="card card-hover group">
-            <div className="mb-6 text-primary group-hover:scale-110 transition-transform duration-300">{icon}</div>
-            <h3 className="text-xl font-semibold mb-3">{title}</h3>
-            <p className="text-muted">{description}</p>
-        </div>
-    );
-};
+import { Globe, Layout, Database, Palette, Server, Smartphone } from "lucide-react";
+import { ServiceCard } from "./ServiceCard";
 
 const Services: React.FC = () => {
     const { t } = useTranslation();
@@ -26,7 +13,7 @@ const Services: React.FC = () => {
         { id: "frontend", label: t("services.tabs.frontend"), icon: <Layout size={24} /> },
         { id: "backend", label: t("services.tabs.backend"), icon: <Database size={24} /> },
         { id: "design", label: t("services.tabs.design"), icon: <Palette size={24} /> },
-        // { id: "devops", label: t("services.tabs.devops"), icon: <Server size={24} /> },
+        { id: "mobile", label: t("services.tabs.mobile"), icon: <Smartphone size={24} /> },
     ];
 
     const getTabContent = (tabId: string) => {
@@ -39,11 +26,11 @@ const Services: React.FC = () => {
                             title={t("services.fullCycle.title1")}
                             description={t("services.fullCycle.desc1")}
                         />
-                        <ServiceCard
+                        {/* <ServiceCard
                             icon={<Layout size={36} />}
                             title={t("services.fullCycle.title2")}
                             description={t("services.fullCycle.desc2")}
-                        />
+                        /> */}
                         <ServiceCard
                             icon={<Server size={36} />}
                             title={t("services.fullCycle.title3")}
@@ -69,6 +56,11 @@ const Services: React.FC = () => {
                             title={t("services.frontend.title3")}
                             description={t("services.frontend.desc3")}
                         />
+                        <ServiceCard
+                            icon={<Layout size={36} />}
+                            title={t("services.frontend.title4")}
+                            description={t("services.frontend.desc4")}
+                        />
                     </div>
                 );
             case "backend":
@@ -79,7 +71,7 @@ const Services: React.FC = () => {
                             title={t("services.backend.title1")}
                             description={t("services.backend.desc1")}
                         />
-                        <ServiceCard
+                        {/* <ServiceCard
                             icon={<Database size={36} />}
                             title={t("services.backend.title2")}
                             description={t("services.backend.desc2")}
@@ -88,7 +80,7 @@ const Services: React.FC = () => {
                             icon={<Database size={36} />}
                             title={t("services.backend.title3")}
                             description={t("services.backend.desc3")}
-                        />
+                        /> */}
                     </div>
                 );
             case "design":
@@ -99,7 +91,7 @@ const Services: React.FC = () => {
                             title={t("services.design.title1")}
                             description={t("services.design.desc1")}
                         />
-                        <ServiceCard
+                        {/* <ServiceCard
                             icon={<Palette size={36} />}
                             title={t("services.design.title2")}
                             description={t("services.design.desc2")}
@@ -108,7 +100,27 @@ const Services: React.FC = () => {
                             icon={<Palette size={36} />}
                             title={t("services.design.title3")}
                             description={t("services.design.desc3")}
+                        /> */}
+                    </div>
+                );
+            case "mobile":
+                return (
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <ServiceCard
+                            icon={<Smartphone size={36} />}
+                            title={t("services.mobile.title1")}
+                            description={t("services.mobile.desc1")}
                         />
+                        {/* <ServiceCard
+                            icon={<Smartphone size={36} />}
+                            title={t("services.mobile.title2")}
+                            description={t("services.mobile.desc2")}
+                        />
+                        <ServiceCard
+                            icon={<Smartphone size={36} />}
+                            title={t("services.mobile.title3")}
+                            description={t("services.mobile.desc3")}
+                        /> */}
                     </div>
                 );
             default:
