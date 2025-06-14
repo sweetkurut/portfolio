@@ -1,7 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { Code2, Workflow, LayoutGrid } from "lucide-react";
+// import { Code2, Workflow, LayoutGrid } from "lucide-react";
+
+import photo from "../assets/img/me.jpg";
 
 const AboutMe: React.FC = () => {
     const { t } = useTranslation();
@@ -49,7 +51,8 @@ const AboutMe: React.FC = () => {
 
                         <div>
                             <img
-                                src="/src/assets/img/me.jpg"
+                                // src="/src/assets/img/me.jpg"
+                                src={photo}
                                 alt=""
                                 className="w-full h-auto filter grayscale hover:filter-none transition duration-300 ease-in-out"
                             />
