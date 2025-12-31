@@ -27,6 +27,16 @@ const Reviews: React.FC = () => {
             author: t("reviews.review3.author"),
             position: t("reviews.review3.position"),
         },
+        {
+            text: t("reviews.review3.text"),
+            author: t("reviews.review3.author"),
+            position: t("reviews.review3.position"),
+        },
+        {
+            text: t("reviews.review3.text"),
+            author: t("reviews.review3.author"),
+            position: t("reviews.review3.position"),
+        },
     ];
 
     return (
@@ -71,7 +81,11 @@ const Reviews: React.FC = () => {
                             {reviews.map((review, index) => (
                                 <SwiperSlide key={index}>
                                     <div className="h-full">
-                                        <ReviewCard text={review.text} author={review.author} position={review.position} />
+                                        <ReviewCard
+                                            text={review.text}
+                                            author={review.author}
+                                            position={review.position}
+                                        />
                                     </div>
                                 </SwiperSlide>
                             ))}
