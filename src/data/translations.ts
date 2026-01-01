@@ -8,89 +8,101 @@ export const en = {
         contact: "Contact",
     },
     hero: {
-        greeting: "Hello, I'm a",
-        title: "Web Developer & Freelancer",
-        subtitle: "I help businesses launch websites, online stores and mobile apps that work fast, look modern and deliver results",
-        cta: "Send a request",
+        greeting: "Hello, we are",
+        title: "Web & Software Development Studio",
+        subtitle:
+            "We help businesses build websites, online stores, mobile apps and digital systems that are fast, scalable and focused on real results",
+        cta: "Get a consultation",
     },
+
     about: {
-        title: "About Me",
+        title: "About Us",
         description:
-            "For over three years, I’ve been crafting more than just websites and apps — I build digital experiences that work, inspire, and deliver real results. Beauty lies in the details, and functionality is always at the core. I blend technical precision with creative thinking to make every line of code count. I’m all about clean code, intuitive interfaces, and tech that truly drives businesses forward. Staying ahead of web trends isn’t just a habit — it’s my way of working. Creating fast, modern, and user-friendly web products? That’s my passion.",
+            "We are a development studio focused on building reliable digital products for business. Our team works with modern technologies to create websites, web applications, mobile apps, and custom software solutions.\n\nWe value clean architecture, performance, and usability. Every project is approached as a real business task — with clear goals, transparent processes, and measurable results. We don’t just write code — we design systems that grow together with your business.",
         card: {
             year: "Years of Experience",
-            project: "Successful Projects",
-            client: "Happy Clients",
+            project: "Completed Projects",
+            client: "Satisfied Clients",
         },
     },
+
     services: {
-        title: "Services",
-        subtitle: "Comprehensive web development solutions tailored to your needs",
+        title: "What We Do",
+        subtitle: "We design and build scalable digital products for business",
         tabs: {
-            fullCycle: "Full-cycle Website Development",
-            frontend: "Frontend Development",
-            backend: "Backend Development",
+            fullCycle: "Full-cycle Development",
+            frontend: "Web Solutions",
+            backend: "Backend & APIs",
+            software: "CRM / LMS & Software",
             design: "UI/UX Design",
-            mobile: "Mobile Development",
+            mobile: "Mobile Applications",
         },
+
         fullCycle: {
-            title1: "End-to-End Development",
-            desc1: "Complete website development from concept to deployment, including design, frontend, backend, and maintenance.",
-            // title2: "Custom CMS Integration",
-            // desc2: "Integration with popular content management systems or custom solutions tailored to your needs.",
-            title3: "Performance Optimization",
-            desc3: "Speed optimization, caching strategies, and best practices implementation for optimal performance.",
+            title1: "Full-cycle Product Development",
+            desc1: "End-to-end development of digital products — from idea and architecture to launch and support. We handle design, frontend, backend, and deployment.",
+            title3: "Performance & Scalability",
+            desc3: "Optimized architecture, fast load times, secure data handling, and scalable solutions ready for business growth.",
         },
+
         frontend: {
             title1: "Landing Page – from 15,000 KGS",
-            desc1: "A one-page website perfect for presenting a service, product, or collecting leads. Fast-loading, responsive, and modern design.",
+            desc1: "A high-conversion one-page website for promoting services, products, or collecting leads. Fast, responsive, and optimized for performance.",
 
             title2: "Corporate Website – from 40,000 KGS",
-            desc2: "A multi-page company website with information about services, team, contacts, and feedback forms. Fully responsive and user-friendly.",
+            desc2: "A professional multi-page website for companies: services, team, contacts, and feedback forms. Built with scalability and usability in mind.",
 
             title3: "E-commerce Store – from 60,000 KGS",
-            desc3: "A complete online store: product catalog, cart, checkout, and integrations with messengers and online payments.",
+            desc3: "A complete online store with product catalog, cart, checkout, admin panel, and integrations with payment systems and messengers.",
 
             title4: "Product Catalog Website – from 50,000 KGS",
-            desc4: "A catalog site without payment or registration. Easy navigation, filtering, and clear product presentation.",
+            desc4: "A structured catalog website without online payments. Ideal for showcasing products with filters, categories, and clear navigation.",
         },
 
         backend: {
-            title1: "API Development",
-            desc1: "RESTful or GraphQL APIs that connect your frontend to your data and services.",
-            title2: "Database Design",
-            desc2: "Efficient database architecture and optimization for your application needs.",
-            title3: "Authentication & Authorization",
-            desc3: "Secure user management systems with robust authentication and authorization flows.",
+            title1: "API & Backend Development",
+            desc1: "Secure and scalable REST or GraphQL APIs powering web and mobile applications.",
+            title2: "Database Architecture",
+            desc2: "Well-structured databases designed for performance, reliability, and future scaling.",
+            title3: "Authentication & Access Control",
+            desc3: "User authentication, roles, permissions, and secure access management for your systems.",
         },
+
+        software: {
+            title1: "CRM Systems",
+            desc1: "Custom CRM solutions for managing clients, sales, processes, and internal workflows tailored to your business needs.",
+
+            title2: "LMS Platforms",
+            desc2: "Learning Management Systems for online courses, corporate training, and educational platforms. Customizable, scalable, and easy to manage.",
+
+            title3: "Custom Business Software",
+            desc3: "Development of internal systems, dashboards, and automation tools that improve efficiency and reduce manual work.",
+        },
+
         design: {
-            title1: "Web Design - from 10,000 KGS",
-            desc1: "Modern, clean designs that engage users and reflect your brand identity.",
-            // title2: "User Experience",
-            // desc2: "Intuitive interfaces and smooth user journeys that convert visitors into customers.",
-            // title3: "Design Systems",
-            // desc3: "Consistent design languages and component libraries for your digital products.",
+            title1: "UI/UX Design – from 10,000 KGS",
+            desc1: "Clean, modern, and user-focused design that reflects your brand and improves user experience across all devices.",
         },
+
         mobile: {
-            title1: "Cross-platform Development - from 100, 000 KGS",
-            desc1: "Building mobile apps for iOS and Android using modern technologies.",
-            // title2: "Backend Integration",
-            // desc2: "Setting up APIs and integrating with the backend for stable app performance.",
-            // title3: "Publishing & Support",
-            // desc3: "App Store and Google Play publishing, along with regular updates and maintenance.",
+            title1: "Cross-platform Mobile Apps – from 100,000 KGS",
+            desc1: "Development of iOS and Android applications with a shared codebase, backend integration, and admin panels.",
         },
     },
+
     projects: {
-        title: "My projects",
-        subtitle: "Some of my recent work",
+        title: "Our projects",
+        subtitle: "Our developed projects",
         project1: {
             title: "E-commerce Platform",
-            description: "A full-featured online store with product catalog, shopping cart, and payment processing.",
+            description:
+                "A full-featured online store with product catalog, shopping cart, and payment processing.",
             link: "View project",
         },
         project2: {
             title: "Corporate Website",
-            description: "A responsive corporate website with custom CMS integration and multilingual support.",
+            description:
+                "A responsive corporate website with custom CMS integration and multilingual support.",
             link: "View project",
         },
         project3: {
@@ -131,110 +143,126 @@ export const en = {
         telegram: "Telegram:",
     },
     footer: {
-        copyright: "© 2025 All rights reserved.",
-        made: "Made with passion and code",
+        copyright: "© 2026 All rights reserved.",
+        made: "Built by a development studio focused on results",
+    },
+
+    lms: {
+        text: "Custom CRM systems, LMS platforms, business software, automation & integrations",
     },
 };
 
 export const ru = {
     nav: {
         home: "Главная",
-        about: "Обо мне",
+        about: "О нас",
         services: "Услуги",
         projects: "Проекты",
         reviews: "Отзывы",
         contact: "Контакты",
     },
     hero: {
-        greeting: "Привет, я",
-        title: "Веб разработчик & Фрилансер",
+        greeting: "Привет, мы",
+        title: "Студия веб и программной разработки",
         subtitle:
-            "Помогаю бизнесу запускать сайты, интернет-магазины и мобильные приложения, которые работают быстро, выглядят современно и приносят результат",
-        cta: "Оставить заявку",
+            "Мы помогаем бизнесу создавать сайты, интернет-магазины, мобильные приложения и цифровые системы, которые работают быстро, масштабируются и приносят результат",
+        cta: "Получить консультацию",
     },
+
     about: {
-        title: "Обо мне",
+        title: "О нас",
         description:
-            "Уже более трёх лет я создаю не просто сайты и приложения, а цифровые решения, которые работают, вдохновляют и приносят результат. Красота в деталях, функциональность — в основе. Я совмещаю техническую точность с креативным мышлением, чтобы каждая строчка кода делала продукт лучше. Я за чистый код, понятный интерфейс и технологии, которые действительно двигают бизнес вперёд. Следить за новыми трендами — мой стиль. Создавать удобные, быстрые и современные веб-продукты — моя страсть.",
+            "Мы — студия разработки, создающая надежные цифровые продукты для бизнеса. Наша команда разрабатывает сайты, веб-приложения, мобильные приложения и программные решения под конкретные задачи.\n\nМы делаем упор на архитектуру, производительность и удобство использования. Каждый проект — это не просто код, а рабочий инструмент для бизнеса с понятными целями, прозрачным процессом и реальным результатом.",
         card: {
-            year: "Года опыта",
-            project: "Успешных проектов",
-            client: "Счастливых клиентов",
+            year: "Лет опыта",
+            project: "Реализованных проектов",
+            client: "Довольных клиентов",
         },
     },
+
     services: {
-        title: "Что я предлагаю",
-        subtitle: "Комплексные решения веб-разработки под ваши потребности",
+        title: "Наши услуги",
+        subtitle: "Разрабатываем масштабируемые цифровые продукты для бизнеса",
         tabs: {
-            fullCycle: "Разработка сайтов под ключ",
-            frontend: "Frontend разработка",
-            backend: "Backend разработка",
+            fullCycle: "Разработка под ключ",
+            frontend: "Веб-решения",
+            backend: "Backend и API",
+            software: "CRM / LMS и ПО",
             design: "UI/UX Дизайн",
-            mobile: "Мобильная разработка",
+            mobile: "Мобильные приложения",
         },
+
         fullCycle: {
-            title1: "Полный цикл разработки",
-            desc1: "Комплексная разработка сайта от концепции до размещения, включая дизайн, фронтенд, бэкенд и обслуживание.",
-            // title2: "Интеграция с CMS",
-            // desc2: "Интеграция с популярными CMS или индивидуальные решения, адаптированные под ваши потребности.",
-            title3: "Оптимизация производительности",
-            desc3: "Оптимизация скорости, стратегии кэширования и внедрение лучших практик для оптимальной производительности.",
+            title1: "Полный цикл разработки продукта",
+            desc1: "Разработка цифровых продуктов под ключ — от идеи и архитектуры до запуска и поддержки. Мы берём на себя дизайн, фронтенд, бэкенд и деплой.",
+            title3: "Производительность и масштабирование",
+            desc3: "Оптимизированная архитектура, высокая скорость работы, безопасность и готовность к росту бизнеса.",
         },
+
         frontend: {
             title1: "Landing Page – от 15 000 сом",
-            desc1: "Одностраничный сайт, идеально подходящий для презентации услуги, продукта или сбора заявок. Быстрая загрузка, адаптивность и современный дизайн.",
+            desc1: "Одностраничный сайт для продвижения услуг, продуктов или сбора заявок. Быстрый, адаптивный и ориентированный на конверсию.",
 
             title2: "Корпоративный сайт – от 40 000 сом",
-            desc2: "Многостраничный сайт для компаний: информация об услугах, команде, контактные данные и формы обратной связи. Полностью адаптивный и удобный для пользователя.",
+            desc2: "Профессиональный многостраничный сайт для бизнеса: услуги, команда, контакты и формы обратной связи.",
 
             title3: "Интернет-магазин – от 60 000 сом",
-            desc3: "Полноценный e-commerce сайт: каталог товаров, корзина, оформление заказов, интеграция с мессенджерами и системами онлайн-оплаты.",
+            desc3: "Полноценный e-commerce проект с каталогом товаров, корзиной, оформлением заказов, админ-панелью и онлайн-оплатой.",
 
             title4: "Сайт-каталог – от 50 000 сом",
-            desc4: "Каталог товаров без необходимости регистрации и онлайн-оплаты. Удобная фильтрация, поиск и презентация товаров.",
+            desc4: "Каталог товаров без онлайн-оплаты. Отлично подходит для презентации ассортимента и услуг.",
         },
 
         backend: {
-            title1: "Разработка API",
-            desc1: "RESTful или GraphQL API, соединяющие ваш фронтенд с данными и сервисами.",
+            title1: "Backend и API разработка",
+            desc1: "Разработка надежных и масштабируемых REST или GraphQL API для веб и мобильных приложений.",
             title2: "Проектирование баз данных",
-            desc2: "Эффективная архитектура баз данных и оптимизация для потребностей вашего приложения.",
-            title3: "Аутентификация и авторизация",
-            desc3: "Безопасные системы управления пользователями с надежными процессами аутентификации и авторизации.",
+            desc2: "Продуманная архитектура баз данных с упором на производительность и безопасность.",
+            title3: "Аутентификация и роли",
+            desc3: "Системы авторизации, роли пользователей и контроль доступа для корпоративных решений.",
         },
+
+        software: {
+            title1: "CRM-системы",
+            desc1: "Индивидуальные CRM для управления клиентами, продажами и внутренними бизнес-процессами.",
+
+            title2: "LMS-платформы",
+            desc2: "Системы дистанционного обучения для онлайн-курсов, корпоративного обучения и образовательных проектов.",
+
+            title3: "Индивидуальное программное обеспечение",
+            desc3: "Разработка внутренних систем, панелей управления и автоматизации под конкретные задачи бизнеса.",
+        },
+
         design: {
-            title1: "Веб-дизайн от 10 000 сом",
-            desc1: "Современный, чистый дизайн, который привлекает пользователей и отражает идентичность вашего бренда.",
-            // title2: "Пользовательский опыт",
-            // desc2: "Интуитивные интерфейсы и плавные пользовательские пути, которые превращают посетителей в клиентов.",
-            // title3: "Дизайн-системы",
-            // desc3: "Последовательные дизайн-языки и библиотеки компонентов для ваших цифровых продуктов.",
+            title1: "UI/UX дизайн – от 10 000 сом",
+            desc1: "Современный и понятный дизайн, который улучшает пользовательский опыт и усиливает бренд.",
         },
+
         mobile: {
-            title1: "Кроссплатформенная разработка - от 100 000 сом",
-            desc1: "Создание мобильных приложений на iOS и Android с использованием современных технологий.",
-            // title2: "Интеграция с бэкендом",
-            // desc2: "Настройка API и интеграция с серверной частью для стабильной работы приложения.",
-            // title3: "Публикация и поддержка",
-            // desc3: "Размещение в App Store и Google Play, а также регулярные обновления и сопровождение.",
+            title1: "Кроссплатформенные мобильные приложения – от 100 000 сом",
+            desc1: "Разработка мобильных приложений для iOS и Android с интеграцией с серверной частью.",
         },
     },
+
     projects: {
-        title: "Мои проекты",
-        subtitle: "Некоторые из моих последних работ",
+        title: "Наши проекты",
+        subtitle: "Наши разработанные проекты",
         project1: {
             title: "Платформа электронной коммерции",
-            description: "Полнофункциональный интернет-магазин с каталогом товаров, корзиной и обработкой платежей.",
+            description:
+                "Полнофункциональный интернет-магазин с каталогом товаров, корзиной и обработкой платежей.",
             link: "Смотреть проект",
         },
         project2: {
             title: "Корпоративный сайт",
-            description: "Адаптивный корпоративный сайт с интеграцией пользовательской CMS и многоязычной поддержкой.",
+            description:
+                "Адаптивный корпоративный сайт с интеграцией пользовательской CMS и многоязычной поддержкой.",
             link: "Смотреть проект",
         },
         project3: {
             title: "Веб-приложение",
-            description: "SaaS-приложение с аутентификацией пользователей, панелью управления и визуализацией данных.",
+            description:
+                "SaaS-приложение с аутентификацией пользователей, панелью управления и визуализацией данных.",
             link: "Смотреть проект",
         },
     },
@@ -270,7 +298,11 @@ export const ru = {
         telegram: "Telegram:",
     },
     footer: {
-        copyright: "© 2025 Все права защищены.",
-        made: "Сделано с любовью и кодом",
+        copyright: "© 2026 Все права защищены.",
+        made: "Разработано студией, ориентированной на результат",
+    },
+
+    lms: {
+        text: "Разработка CRM-систем на заказ, LMS-платформ, бизнес-программное обеспечение, автоматизация и интеграция.",
     },
 };

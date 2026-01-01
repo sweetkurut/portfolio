@@ -39,12 +39,12 @@ const Header: React.FC = () => {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-                scrolled ? "bg-darker/90 backdrop-blur-md py-4 shadow-lg" : "bg-darker py-6"
+                scrolled ? "bg-darker/20 backdrop-blur-md py-4 shadow-lg" : "bg-darker py-6"
             }`}
         >
             <div className="container flex items-center justify-between">
                 <a href="#home" className="text-2xl font-bold font-heading">
-                    <span className="text-primary">Aidin</span>Dew
+                    <span className="text-primary">Asman</span>Digital
                 </a>
 
                 {/* Desktop Navigation */}
@@ -52,7 +52,10 @@ const Header: React.FC = () => {
                     <ul className="flex items-center space-x-8">
                         {navLinks.map((link) => (
                             <li key={link.href}>
-                                <a href={link.href} className="text-light hover:text-primary transition-colors duration-300">
+                                <a
+                                    href={link.href}
+                                    className="text-light hover:text-primary transition-colors duration-300"
+                                >
                                     {link.name}
                                 </a>
                             </li>
@@ -63,7 +66,9 @@ const Header: React.FC = () => {
                         <button
                             onClick={() => changeLanguage("en")}
                             className={`px-2 py-1 text-sm rounded ${
-                                i18n.language === "en" ? "bg-primary text-light" : "text-light hover:text-primary"
+                                i18n.language === "en"
+                                    ? "bg-primary text-light"
+                                    : "text-light hover:text-primary"
                             }`}
                         >
                             EN
@@ -71,7 +76,9 @@ const Header: React.FC = () => {
                         <button
                             onClick={() => changeLanguage("ru")}
                             className={`px-2 py-1 text-sm rounded ${
-                                i18n.language === "ru" ? "bg-primary text-light" : "text-light hover:text-primary"
+                                i18n.language === "ru"
+                                    ? "bg-primary text-light"
+                                    : "text-light hover:text-primary"
                             }`}
                         >
                             RU
@@ -110,7 +117,9 @@ const Header: React.FC = () => {
                             <button
                                 onClick={() => changeLanguage("en")}
                                 className={`px-2 py-1 rounded text-sm ${
-                                    i18n.language === "en" ? "bg-primary text-light" : "text-light hover:text-primary"
+                                    i18n.language === "en"
+                                        ? "bg-primary text-light"
+                                        : "text-light hover:text-primary"
                                 }`}
                             >
                                 EN
@@ -118,7 +127,9 @@ const Header: React.FC = () => {
                             <button
                                 onClick={() => changeLanguage("ru")}
                                 className={`px-2 py-1 rounded text-sm ${
-                                    i18n.language === "ru" ? "bg-primary text-light" : "text-light hover:text-primary"
+                                    i18n.language === "ru"
+                                        ? "bg-primary text-light"
+                                        : "text-light hover:text-primary"
                                 }`}
                             >
                                 RU
@@ -164,7 +175,9 @@ const Header: React.FC = () => {
                             <button
                                 onClick={() => changeLanguage("en")}
                                 className={`px-3 py-1 rounded ${
-                                    i18n.language === "en" ? "bg-primary text-light" : "text-light hover:text-primary"
+                                    i18n.language === "en"
+                                        ? "bg-primary text-light"
+                                        : "text-light hover:text-primary"
                                 }`}
                             >
                                 English
@@ -172,7 +185,9 @@ const Header: React.FC = () => {
                             <button
                                 onClick={() => changeLanguage("ru")}
                                 className={`px-3 py-1 rounded ${
-                                    i18n.language === "ru" ? "bg-primary text-light" : "text-light hover:text-primary"
+                                    i18n.language === "ru"
+                                        ? "bg-primary text-light"
+                                        : "text-light hover:text-primary"
                                 }`}
                             >
                                 Русский

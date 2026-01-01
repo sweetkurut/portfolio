@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { Globe, Layout, Database, Palette, Server, Smartphone } from "lucide-react";
+import { Globe, Layout, Database, Palette, Server, Smartphone, Settings } from "lucide-react";
 import { ServiceCard } from "./ServiceCard";
 
 const Services: React.FC = () => {
@@ -12,6 +12,7 @@ const Services: React.FC = () => {
         { id: "fullCycle", label: t("services.tabs.fullCycle"), icon: <Globe size={24} /> },
         { id: "frontend", label: t("services.tabs.frontend"), icon: <Layout size={24} /> },
         { id: "backend", label: t("services.tabs.backend"), icon: <Database size={24} /> },
+        { id: "software", label: t("services.tabs.software"), icon: <Settings size={24} /> },
         { id: "design", label: t("services.tabs.design"), icon: <Palette size={24} /> },
         { id: "mobile", label: t("services.tabs.mobile"), icon: <Smartphone size={24} /> },
     ];
@@ -26,11 +27,6 @@ const Services: React.FC = () => {
                             title={t("services.fullCycle.title1")}
                             description={t("services.fullCycle.desc1")}
                         />
-                        {/* <ServiceCard
-                            icon={<Layout size={36} />}
-                            title={t("services.fullCycle.title2")}
-                            description={t("services.fullCycle.desc2")}
-                        /> */}
                         <ServiceCard
                             icon={<Server size={36} />}
                             title={t("services.fullCycle.title3")}
@@ -38,6 +34,7 @@ const Services: React.FC = () => {
                         />
                     </div>
                 );
+
             case "frontend":
                 return (
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -63,6 +60,7 @@ const Services: React.FC = () => {
                         />
                     </div>
                 );
+
             case "backend":
                 return (
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -71,7 +69,7 @@ const Services: React.FC = () => {
                             title={t("services.backend.title1")}
                             description={t("services.backend.desc1")}
                         />
-                        {/* <ServiceCard
+                        <ServiceCard
                             icon={<Database size={36} />}
                             title={t("services.backend.title2")}
                             description={t("services.backend.desc2")}
@@ -80,9 +78,31 @@ const Services: React.FC = () => {
                             icon={<Database size={36} />}
                             title={t("services.backend.title3")}
                             description={t("services.backend.desc3")}
-                        /> */}
+                        />
                     </div>
                 );
+
+            case "software":
+                return (
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <ServiceCard
+                            icon={<Settings size={36} />}
+                            title={t("services.software.title1")}
+                            description={t("services.software.desc1")}
+                        />
+                        <ServiceCard
+                            icon={<Settings size={36} />}
+                            title={t("services.software.title2")}
+                            description={t("services.software.desc2")}
+                        />
+                        <ServiceCard
+                            icon={<Settings size={36} />}
+                            title={t("services.software.title3")}
+                            description={t("services.software.desc3")}
+                        />
+                    </div>
+                );
+
             case "design":
                 return (
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -91,18 +111,9 @@ const Services: React.FC = () => {
                             title={t("services.design.title1")}
                             description={t("services.design.desc1")}
                         />
-                        {/* <ServiceCard
-                            icon={<Palette size={36} />}
-                            title={t("services.design.title2")}
-                            description={t("services.design.desc2")}
-                        />
-                        <ServiceCard
-                            icon={<Palette size={36} />}
-                            title={t("services.design.title3")}
-                            description={t("services.design.desc3")}
-                        /> */}
                     </div>
                 );
+
             case "mobile":
                 return (
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -111,18 +122,9 @@ const Services: React.FC = () => {
                             title={t("services.mobile.title1")}
                             description={t("services.mobile.desc1")}
                         />
-                        {/* <ServiceCard
-                            icon={<Smartphone size={36} />}
-                            title={t("services.mobile.title2")}
-                            description={t("services.mobile.desc2")}
-                        />
-                        <ServiceCard
-                            icon={<Smartphone size={36} />}
-                            title={t("services.mobile.title3")}
-                            description={t("services.mobile.desc3")}
-                        /> */}
                     </div>
                 );
+
             default:
                 return null;
         }
@@ -140,7 +142,7 @@ const Services: React.FC = () => {
                     <h2 className="section-title gradient-text">{t("services.title")}</h2>
                     <p className="section-subtitle">{t("services.subtitle")}</p>
 
-                    <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-12">
+                    <div className="flex flex-wrap justify-center gap-2 md:gap-3 mb-12">
                         {tabs.map((tab) => (
                             <button
                                 key={tab.id}

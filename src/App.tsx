@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Reviews from "./components/Reviews";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Technologies from "./components/Technologies";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Hero />
                     <AboutMe />
                     <Services />
+                    <Technologies />
                     <Projects />
                     <Reviews />
                     <Contact />
