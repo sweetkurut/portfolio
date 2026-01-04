@@ -38,9 +38,9 @@ const Header: React.FC = () => {
 
     return (
         <header
-            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-                scrolled ? "bg-darker/20 backdrop-blur-md py-4 shadow-lg" : "bg-darker py-6"
-            }`}
+            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300
+    ${scrolled ? "bg-darker md:bg-darker/20 md:backdrop-blur-md py-4 shadow-lg" : "bg-darker py-6"}
+`}
         >
             <div className="container flex items-center justify-between">
                 <a href="#home" className="text-2xl font-bold font-heading">
