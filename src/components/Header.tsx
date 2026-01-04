@@ -38,7 +38,7 @@ const Header: React.FC = () => {
 
     return (
         <header
-            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300
+            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 
     ${scrolled ? "bg-darker md:bg-darker/20 md:backdrop-blur-md py-4 shadow-lg" : "bg-darker py-6"}
 `}
         >
@@ -96,7 +96,7 @@ const Header: React.FC = () => {
             <div className="hidden md:flex lg:hidden fixed top-0 left-0 w-full z-40 bg-darker shadow-md">
                 <div className="container flex items-center justify-between py-4">
                     <a href="#home" className="text-2xl font-bold" onClick={closeMenu}>
-                        <span className="text-primary">Aidin</span>Dew
+                        <span className="text-primary">Asman</span>Digital
                     </a>
 
                     <div className="flex items-center space-x-6">
@@ -148,7 +148,7 @@ const Header: React.FC = () => {
                 <div className="container py-8">
                     <div className="flex items-center justify-between mb-8">
                         <a href="#home" className="text-2xl font-bold" onClick={closeMenu}>
-                            <span className="text-primary">Aidin</span>Dew
+                            <span className="text-primary">Asman</span>Digital
                         </a>
                         <button onClick={closeMenu} aria-label="Close menu">
                             <X size={24} className="text-light" />

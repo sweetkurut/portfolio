@@ -11,9 +11,9 @@ const Hero: React.FC = () => {
         <section id="home" className="relative min-h-screen pt-32 pb-20 flex items-center overflow-hidden">
             {/* Background gradient */}
             <div className="absolute inset-0 bg-dark">
-                <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/2 bg-primary/20 rounded-full blur-[120px]" />
-                <div className="absolute bottom-1/4 left-1/4 w-1/3 h-1/3 bg-secondary/20 rounded-full blur-[100px]" />
-                <div className="absolute top-1/2 right-1/4 w-1/4 h-1/4 bg-accent/20 rounded-full blur-[80px]" />
+                <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/2 bg-primary/10 rounded-full blur-[120px]" />
+                <div className="absolute bottom-1/4 left-1/4 w-1/3 h-1/3 bg-secondary/15 rounded-full blur-[100px]" />
+                <div className="absolute top-1/2 right-1/4 w-1/4 h-1/4 bg-accent/10 rounded-full blur-[80px]" />
             </div>
 
             <div className="absolute inset-0 z-0 pointer-events-none">

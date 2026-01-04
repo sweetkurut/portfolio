@@ -9,16 +9,16 @@ export const en = {
     },
     hero: {
         greeting: "Hello, we are",
-        title: "Web & Software Development Studio",
+        title: "Web and software development for business",
         subtitle:
-            "We help businesses build websites, online stores, mobile apps and digital systems that are fast, scalable and focused on real results",
+            "We help companies launch websites, online stores, and digital systems that increase sales, automate processes, and grow with their business.",
         cta: "Get a consultation",
     },
 
     about: {
         title: "About Us",
         description:
-            "We are a development studio focused on building reliable digital products for business. Our team works with modern technologies to create websites, web applications, mobile apps, and custom software solutions.\n\nWe value clean architecture, performance, and usability. Every project is approached as a real business task — with clear goals, transparent processes, and measurable results. We don’t just write code — we design systems that grow together with your business.",
+            "We are a development studio creating reliable digital products for business. We design and build websites, web applications, mobile apps, and custom software solutions tailored to specific business needs.\n\nOur work is built on well-designed architecture, high performance, and a strong focus on user experience. For us, every project is more than just code — it is a complete working tool that helps businesses achieve goals, scale, and grow.\n\nWe work transparently, with clear stages, timelines, and measurable results at every step of the collaboration.",
         card: {
             year: "Years of Experience",
             project: "Completed Projects",
@@ -163,16 +163,16 @@ export const ru = {
     },
     hero: {
         greeting: "Привет, мы",
-        title: "Студия веб и программной разработки",
+        title: "Веб и программная разработка для бизнеса",
         subtitle:
-            "Мы помогаем бизнесу создавать сайты, интернет-магазины, мобильные приложения и цифровые системы, которые работают быстро, масштабируются и приносят результат",
+            "Помогаем компаниям запускать сайты, интернет-магазины и цифровые системы,которые увеличивают продажи, автоматизируют процессы и растут вместе с бизнесом",
         cta: "Получить консультацию",
     },
 
     about: {
         title: "О нас",
         description:
-            "Мы — студия разработки, создающая надежные цифровые продукты для бизнеса. Наша команда разрабатывает сайты, веб-приложения, мобильные приложения и программные решения под конкретные задачи.\n\nМы делаем упор на архитектуру, производительность и удобство использования. Каждый проект — это не просто код, а рабочий инструмент для бизнеса с понятными целями, прозрачным процессом и реальным результатом.",
+            "Мы — студия разработки, создающая надёжные цифровые продукты для бизнеса. Мы проектируем и разрабатываем сайты, веб-приложения, мобильные приложения и программные решения под конкретные бизнес-задачи.\n\nВ основе нашей работы — продуманная архитектура, высокая производительность и удобство для конечных пользователей. Каждый проект для нас — это не просто код, а полноценный рабочий инструмент, который помогает бизнесу достигать целей, масштабироваться и развиваться.\n\nМы работаем прозрачно, с понятными этапами, сроками и результатом на каждом этапе сотрудничества.",
         card: {
             year: "Лет опыта",
             project: "Реализованных проектов",
